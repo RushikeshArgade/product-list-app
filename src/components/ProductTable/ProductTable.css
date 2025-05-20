@@ -1,0 +1,26 @@
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+}
+
+.table-header,
+.table-cell {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 4px;
+  text-align: center;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 640px) {
+  .table-header,
+  .table-cell {
+    width: 25%;
+    padding: 8px;
+  }
+}
